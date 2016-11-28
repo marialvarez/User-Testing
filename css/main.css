@@ -1,0 +1,29 @@
+* {
+    outline: 1px solid rgba(255,0,0,0.4);
+    
+}
+body {
+    margin:0;
+    padding:0;
+}
+.icon-container {
+    width:150px;
+    height: 150px;
+    margin:0 auto;
+    line-height: 150px;
+    font-size: 60px;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    color:#56accb;
+}
+.icon-steps {
+    width:50px;
+    height:50px;
+    margin:0;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 100%;
+    background: #56accb;
+    color:#fff;
+    text-align: center;
+}
