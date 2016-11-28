@@ -1,11 +1,11 @@
 * {
     outline: 1px solid rgba(255,0,0,0.4);
-    
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
 }
-body {
-    margin:0;
-    padding:0;
-}
+
 .icon-container {
     width:150px;
     height: 150px;
@@ -27,3 +27,84 @@ body {
     color:#fff;
     text-align: center;
 }
+
+/*------------------------------------------------------------------------------------------------------HEADER*/
+
+header {
+    background: url(../image/large.jpg) no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 600px;
+    color:#fff;
+}
+header .img-responsive {
+    margin-top: 30px;
+}
+header nav {
+    float:right;
+    margin-top:30px;
+}
+header nav li {
+    padding: 10px;
+}
+header nav a {
+    margin:15px;
+    font-size: 15px;
+    color:#fff;
+}
+header nav a:hover {
+    text-decoration: none;
+}
+header .fondo {
+    background-color: rgba(86,86,86,0.5);
+    height: 495px;
+}
+.frase {
+    width: 600px;
+    margin:170px auto;
+}
+.frase h2 {
+    font-size: 37px;
+}
+.banner {
+    background-color: rgba(47, 110, 173, 0.9);
+    transform:translateY(-12px);
+    height: 110px;
+}
+.banner h3 {
+    font-size: 26px;
+}
+.banner h3, .banner p {
+    position: relative;
+    left: 100px;
+    width:270px;
+}
+.banner button {
+    border:1px solid #fff;
+    padding:5px 5px;
+    background-color: rgba(47, 110, 173, 0.9);
+    position: relative;
+    top:30px;
+    float: left;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------------------------------------------SERVICES*/
+.services h3 {
+    color:#56accb;
+    font-size:30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.services h5 {
+    color:#56accb;
+    font-size: 20px;
+    margin:35px 80px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------EJEMPLO*/
+/*------------------------------------------------------------------------------------------------------STEPS*/
+/*------------------------------------------------------------------------------------------------------FOOTER*/
