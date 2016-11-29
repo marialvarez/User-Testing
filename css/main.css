@@ -103,8 +103,42 @@ header .fondo {
     font-size: 20px;
     margin:35px 80px;
 }
-
-
+.services {
+    border-bottom: 1px solid silver;
+}
 /*------------------------------------------------------------------------------------------------------EJEMPLO*/
 /*------------------------------------------------------------------------------------------------------STEPS*/
+.steps .icon-steps {
+    position:relative;
+    left:-50px;
+    top:50px;
+}
+.steps .one {
+    position: relative;
+    top:70px;
+}
+.steps .two {
+    position: relative;
+    top:160px;
+}
+.steps .three {
+    position: relative;
+    top:240px;
+}
+.steps {
+    height:500px;
+}
+.steps .pasos {
+    position:relative;
+    top:-140px;
+    left: 10px;
+}
+.pasos ul {
+    width: 400px;
+    margin-left: 20px;
+}
+.steps .style-text {
+    color:#419cc4;
+}
+
 /*------------------------------------------------------------------------------------------------------FOOTER*/
