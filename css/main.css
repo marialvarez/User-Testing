@@ -106,8 +106,29 @@ header .fondo {
 .services {
     border-bottom: 1px solid silver;
 }
+.img-separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*------------------------------------------------------------------------------------------------------EJEMPLO*/
+.ejemplo .user360 {
+    width:200px;
+    display:inline-block;
+}
 /*------------------------------------------------------------------------------------------------------STEPS*/
+.steps {
+    border-bottom:1px solid silver;
+}
+.steps .left-img {
+    width: 550px;
+    height: 500px;
+    margin: 0;
+}
+.steps .fondo2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width:550px;
+    height: 500px;
+}
 .steps .icon-steps {
     position:relative;
     left:-50px;
@@ -137,8 +158,11 @@ header .fondo {
     width: 400px;
     margin-left: 20px;
 }
-.steps .style-text {
+.style-text {
     color:#419cc4;
 }
-
+.steps .separator {
+    position: relative;
+    top:-120px;
+}
 /*------------------------------------------------------------------------------------------------------FOOTER*/
