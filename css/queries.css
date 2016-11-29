@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px) {
+    .icon-menu {
+        display: inline-block;
+        float: right;
+        font-size: 30px;
+    }
+    header nav {
+        display: none;
+    }
+}

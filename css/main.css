@@ -1,5 +1,4 @@
 * {
-    outline: 1px solid rgba(255,0,0,0.4);
 	margin:0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -36,9 +35,17 @@ header {
     background-size: cover;
     height: 600px;
     color:#fff;
+    margin:0 auto;
+}
+header .fondo {
+    background-color: rgba(86,86,86,0.5);
+    height: 495px;
 }
 header .img-responsive {
     margin-top: 30px;
+}
+header .icon-menu {
+    display: none;
 }
 header nav {
     float:right;
@@ -52,12 +59,11 @@ header nav a {
     font-size: 15px;
     color:#fff;
 }
+header .frase {
+    width: auto;
+}
 header nav a:hover {
     text-decoration: none;
-}
-header .fondo {
-    background-color: rgba(86,86,86,0.5);
-    height: 495px;
 }
 .frase {
     width: 600px;
@@ -68,8 +74,9 @@ header .fondo {
 }
 .banner {
     background-color: rgba(47, 110, 173, 0.9);
-    transform:translateY(-12px);
-    height: 110px;
+    height: 112px;
+    position: relative;
+    top:-10px
 }
 .banner h3 {
     font-size: 26px;
@@ -110,28 +117,40 @@ header .fondo {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.services .space {
+    position: relative;
+    bottom: -20px;
+}
 /*------------------------------------------------------------------------------------------------------EJEMPLO*/
+.ejemplo {
+    height: 400px;
+}
 .ejemplo .user360 {
     width:200px;
     display:inline-block;
 }
-/*------------------------------------------------------------------------------------------------------STEPS*/
-.steps {
-    border-bottom:1px solid silver;
+.style2-text {
+    color:#419cc4;
+    font-size: 30px;
 }
+
+/*------------------------------------------------------------------------------------------------------STEPS*/
 .steps .left-img {
     width: 550px;
-    height: 500px;
+    height: 530px;
     margin: 0;
 }
 .steps .fondo2 {
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
+    top:0px;
+    left: 15px;
     width:550px;
-    height: 500px;
+    height: 530px;
 }
 .steps .icon-steps {
     position:relative;
-    left:-50px;
+    left:-40px;
     top:50px;
 }
 .steps .one {
@@ -147,12 +166,16 @@ header .fondo {
     top:240px;
 }
 .steps {
-    height:500px;
+    height:550px;
 }
 .steps .pasos {
     position:relative;
     top:-140px;
-    left: 10px;
+    left: 15px;
+}
+.pasos h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 .pasos ul {
     width: 400px;
@@ -160,9 +183,66 @@ header .fondo {
 }
 .style-text {
     color:#419cc4;
+    font-size: 20px;
 }
 .steps .separator {
     position: relative;
-    top:-120px;
+    top:-150px;
 }
+/*------------------------------------------------------------------------------------------------------WHY*/
+.why .user360-2 {
+    width:200px;
+    display:inline-block;
+}
+.why ul {
+     width: 400px;
+    margin-left: 20px;   
+}
+.why .right-img {
+    margin-top: 20px;
+}
+.banner-2 {
+    background-color: rgba(47, 110, 173, 0.9);
+    margin-top: 50px;
+    height: 110px;
+    color:#fff;
+}
+.banner-2 h3 {
+    font-size: 26px;
+}
+.banner-2 h3, .banner-2 p {
+    position: relative;
+    left: 30px;
+    width:270px;
+}
+.banner-2 button {
+    border:1px solid #fff;
+    padding:5px 5px;
+    background-color: rgba(47, 110, 173, 0.9);
+    position: relative;
+    top:30px;
+    left:180px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
 /*------------------------------------------------------------------------------------------------------FOOTER*/
+footer {
+    background: #262834;
+    color:#fff;
+    padding:20px 0;
+}
+footer .telef {
+    margin-top: 10px;
+}
+footer .icon-footer {
+    display: inline-block;
+    float: right;
+    color:#4ea8e0;
+    font-size: 30px;
+    margin: 10px;
+}
+footer .copy {
+    float: right;
+}
