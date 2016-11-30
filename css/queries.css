@@ -1,5 +1,5 @@
 @media screen and (max-width: 1000px) {
-    .icon-menu {
+    header .icon-menu {
         display: inline-block;
         float: right;
         font-size: 30px;
@@ -7,4 +7,26 @@
     header nav {
         display: none;
     }
+    header .banner {
+        height: 170px;
+    }
+    .banner-2 button {
+        display: none;
+    }
+    .banner .col-md-4 {
+        display: block;
+        text-align: center;
+    }
 }
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+    header .banner {
+        height: 150px;
+        transform: translatey(15px);
+    }
+    header .frase {
+        margin-top: 100px;
+    }
+

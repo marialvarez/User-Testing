@@ -1,6 +1,4 @@
 * {
-	margin:0px;
-	padding: 0px;
 	box-sizing: border-box;
     font-family: 'Muli', sans-serif;
 }
@@ -29,18 +27,18 @@
 
 /*------------------------------------------------------------------------------------------------------HEADER*/
 
-header {
+.fondo {
     background: url(../image/large.jpg) no-repeat;
-    background-attachment: scroll;
     background-size: cover;
+    background-attachment: scroll;
     height: 600px;
-    color:#fff;
-    margin:0 auto;
 }
-header .fondo {
-    background-color: rgba(86,86,86,0.5);
-    height: 495px;
+header {
+    background: rgba(66, 66, 87, 0.73);
+    height: 100%;
+    color: #fff;
 }
+
 header .img-responsive {
     margin-top: 30px;
 }
@@ -54,48 +52,49 @@ header nav {
 header nav li {
     padding: 10px;
 }
+header nav li:hover {
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+}
 header nav a {
-    margin:15px;
     font-size: 15px;
     color:#fff;
+    padding: 10px;
 }
 header .frase {
     width: auto;
 }
 header nav a:hover {
     text-decoration: none;
+    color:black;
 }
 .frase {
-    width: 600px;
-    margin:170px auto;
+    height: 375px;
+    margin:120px auto;
+    display: table;
 }
 .frase h2 {
+    margin:0;
     font-size: 37px;
+    padding: 0% 15%;
+    display: table-cell;
 }
 .banner {
     background-color: rgba(47, 110, 173, 0.9);
-    height: 112px;
-    position: relative;
-    top:-10px
+    height: 140px;
+    margin-top: -235px;
+    padding-top: 10px;
 }
 .banner h3 {
     font-size: 26px;
 }
-.banner h3, .banner p {
-    position: relative;
-    left: 100px;
-    width:270px;
-}
-.banner button {
-    border:1px solid #fff;
-    padding:5px 5px;
-    background-color: rgba(47, 110, 173, 0.9);
-    position: relative;
-    top:30px;
-    float: left;
-    width: 170px;
-    font-size: 20px;
+header .banner button {
+    background: none;
+    border: 1px solid #fff;
     border-radius: 5px;
+    margin-top: 20px;
+    font-size: 26px;
 }
 
 /*------------------------------------------------------------------------------------------------------SERVICES*/
@@ -110,102 +109,121 @@ header nav a:hover {
     font-size: 20px;
     margin:35px 80px;
 }
-.services {
-    border-bottom: 1px solid silver;
-}
-.img-separator {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 .services .space {
     position: relative;
     bottom: -20px;
 }
 /*------------------------------------------------------------------------------------------------------EJEMPLO*/
-.ejemplo {
-    height: 400px;
+.ejemplo{
+	border-top: 1px solid #F4F4F4;
+	padding: 8% 6% 6%;
 }
-.ejemplo .user360 {
-    width:200px;
-    display:inline-block;
+.title{
+	text-align: center;
+	margin-bottom: 3%;
 }
-.style2-text {
-    color:#419cc4;
-    font-size: 30px;
+.ejemplo p{
+	margin-bottom: 0;
+	line-height: 25px;
+}
+.ejemplo a{
+	font-size: 0.9em;
+}
+.logo{
+	width: 280px;
+	display: inline-block;
+	padding-bottom: 2.5%;
+}
+.ejemplo h1, .usar h1{
+	color: #73A9FF;
+	display: inline;
+}
+.ejemplo .arrow{
+	display: block;
+	margin: auto;
 }
 
-/*------------------------------------------------------------------------------------------------------STEPS*/
-.steps .left-img {
-    width: 550px;
-    height: 530px;
-    margin: 0;
+/*-------------------------------------------------ADQUIRIR*/
+.adquirir{
+	border-top: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
 }
-.steps .fondo2 {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    top:0px;
-    left: 15px;
-    width:550px;
-    height: 530px;
+.work{
+	background-image: url("../image/sec-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
 }
-.steps .icon-steps {
-    position:relative;
-    left:-40px;
-    top:50px;
+.adquirir h2{
+	padding: 3% 8%;
 }
-.steps .one {
-    position: relative;
-    top:70px;
+.opaco{
+	background-color: rgba(63, 78, 91, 0.66);
+	height: 100%;
 }
-.steps .two {
-    position: relative;
-    top:160px;
+.texto{
+	padding: 3% 8%;
+	line-height: 28px;
 }
-.steps .three {
-    position: relative;
-    top:240px;
+.texto p{
+	margin-bottom: 0;
+	font-size: 1.1em;
 }
-.steps {
-    height:550px;
+.texto p:nth-child(2){
+	color: #73A9FF;
+	font-size: 1.5em;
+	margin-bottom: 6px;
 }
-.steps .pasos {
-    position:relative;
-    top:-140px;
-    left: 15px;
+.texto ul{
+	padding-left: 15px;
 }
-.pasos h3 {
-    margin-bottom: 30px;
-    font-size: 30px;
+.flecha{
+	bottom: 55px;
 }
-.pasos ul {
-    width: 400px;
-    margin-left: 20px;
+.icon{
+	position: absolute;
+	font-size: 2.3em;
+	color: white;
+	display: block;
+	border-radius: 50%;
+	background-color: #50BDEA;
+	padding: 2%;
+	right: 96%;
 }
-.style-text {
-    color:#419cc4;
-    font-size: 20px;
+.texto a.icon:nth-child(3){
+	margin: 0;
 }
-.steps .separator {
-    position: relative;
-    top:-150px;
+.uno{
+	margin: 6% 0%;
 }
-/*------------------------------------------------------------------------------------------------------WHY*/
-.why .user360-2 {
-    width:200px;
-    display:inline-block;
+.flecha{
+	position: relative;
+	left: 46%;
 }
-.why ul {
-     width: 400px;
-    margin-left: 20px;   
+-----------------------------------------------------------------------------------------------------WHY*/
+.why ul{
+	margin: 3% 0%;
+	line-height: 26px;
 }
-.why .right-img {
-    margin-top: 20px;
+.why p{
+	line-height: 24px;
+}
+.why{
+	padding: 0% 4%;
+}
+.why h1 {
+    color: #73A9FF;
+	display: inline;
+}
+.why span {
+     color:#6CACDC;
 }
 .banner-2 {
     background-color: rgba(47, 110, 173, 0.9);
     margin-top: 50px;
     height: 110px;
     color:#fff;
+    width: 100%;
 }
 .banner-2 h3 {
     font-size: 26px;
