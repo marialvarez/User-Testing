@@ -89,5 +89,8 @@
 .icon-linkedin:before {
 	content: "\e062";
 }
+.icon-menu:before {
+  content: "\e9bd";
+}
 
 

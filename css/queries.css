@@ -17,6 +17,17 @@
         display: block;
         text-align: center;
     }
+    .n-zero h5, .n-zero p {
+        transform: translateY(20px);
+    }
+    .n-two p {
+        transform: translateY(-20px);
+    }
+    .texto {
+        transform: translateX(14px) translateY(-20px);
+        width: auto;
+    }
+    
 }
 @media screen and (max-width: 700px) {
     .container {
@@ -29,4 +40,19 @@
     header .frase {
         margin-top: 100px;
     }
-
+    .services h3 {
+        transform: translateY(-30px);
+    }
+    .services .n-one {
+        transform: translateY(-40px);
+    }
+    .n-zero h5, .n-zero p {
+        transform: translateY(-40px);
+    }
+    .adquirir .work {
+        display:none;
+    }
+    .banner-2 {
+        text-align: center;
+    }
+    
