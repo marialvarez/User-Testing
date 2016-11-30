@@ -30,7 +30,7 @@
 .fondo {
     background: url(../image/large.jpg) no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 600px;
 }
 header {
