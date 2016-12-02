@@ -1,119 +1,117 @@
-* {
-	box-sizing: border-box;
+
+body
+{
+	font-family: Lato;
     font-family: 'Muli', sans-serif;
 }
-
-.icon-container {
-    width:150px;
-    height: 150px;
-    margin:0 auto;
-    line-height: 150px;
-    font-size: 60px;
-    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
-    border-radius: 100%;
-    color:#56accb;
+/*---------------------------------------------------------------------------------------------------------------- Header */
+header
+{
+	background: url(../image/large.jpg);
+	background-size: cover;
+	color: #FFF;
 }
-.icon-steps {
-    width:50px;
-    height:50px;
-    margin:0;
-    line-height: 50px;
-    font-size: 30px;
-    border-radius: 100%;
-    background: #56accb;
-    color:#fff;
-    text-align: center;
+header a{
+	color: #FFF;
 }
-
-/*------------------------------------------------------------------------------------------------------HEADER*/
-
-.fondo {
-    background: url(../image/large.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
+nav li a{
+	display: block;
+	padding: 15px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
 }
-header {
-    background: rgba(66, 66, 87, 0.73);
-    height: 100%;
-    color: #fff;
+nav li a:hover, nav li a:focus{
+	text-decoration: none;
+	outline: none;
+	background: #FFF;
 }
 
-header .img-responsive {
-    margin-top: 30px;
+#main-navigation
+{
+	z-index: 1;
+	position: absolute;
+	right: 10px;
+	margin: 10px 0 0 0;
 }
-header .icon-menu {
-    display: none;
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
 }
-header nav {
-    float:right;
-    margin-top:30px;
+.logo
+{
+	margin-top: 10px;
 }
-header nav li {
-    padding: 10px;
+.frase
+{
+	margin: 100px 0;
+	text-align: center;
 }
-header nav li:hover {
-    color: black;
-    background-color: white;
-    border-radius: 100%;
+.tapita-azul
+{
+	background: rgba(90, 107, 136, 0.6);
+	padding-top: 10px ;
 }
-header nav a {
-    font-size: 15px;
-    color:#fff;
-    padding: 10px;
+.header-banner
+{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
 }
-header .frase {
-    width: auto;
+.header-banner h3
+{
+	margin: 0;
 }
-header nav a:hover {
-    text-decoration: none;
-    color:black;
-}
-.frase {
-    height: 375px;
-    margin:120px auto;
-    display: table;
-}
-.frase h2 {
-    margin:0;
-    font-size: 37px;
-    padding: 0% 15%;
-    display: table-cell;
-}
-.banner {
-    background-color: rgba(47, 110, 173, 0.9);
-    height: 140px;
-    margin-top: -235px;
-    padding-top: 10px;
-}
-.banner h3 {
-    font-size: 26px;
-}
-header .banner button {
-    background: none;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 26px;
+.banner-button
+{
+	background: none;
+	border:1px solid #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
 }
 
-/*------------------------------------------------------------------------------------------------------SERVICES*/
+.icon-container
+{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 60px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 200px;
+	color: skyblue;
+}
+/*------------------------ Services */
 .services h3 {
     color:#56accb;
     font-size:30px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: -20px;
 }
 .services h5 {
     color:#56accb;
     font-size: 20px;
     margin:35px 80px;
 }
-.services .space {
-    position: relative;
-    bottom: -20px;
+
+/*------------------------ Separador vertical */
+.vertical-divider
+{
+	border-top:1px solid #CCC;
+	text-align: center;
 }
-/*------------------------------------------------------------------------------------------------------EJEMPLO*/
+.vertical-divider img
+{
+	position: absolute;
+	z-index: 1;
+	transform: translateY(-50%) translateX(-50%);
+}
+/*------------------------ END Separador vertical */
+/*------------------------ Ejemplo */
+
 .ejemplo{
 	border-top: 1px solid #F4F4F4;
 	padding: 8% 6% 6%;
@@ -121,6 +119,7 @@ header .banner button {
 .title{
 	text-align: center;
 	margin-bottom: 3%;
+    color:#56accb;
 }
 .ejemplo p{
 	margin-bottom: 0;
@@ -130,77 +129,75 @@ header .banner button {
 	font-size: 0.9em;
 }
 .logo{
-	width: 280px;
+	width: 250px;
 	display: inline-block;
 	padding-bottom: 2.5%;
 }
-.ejemplo h1, .usar h1{
-	color: #73A9FF;
-	display: inline;
-}
 .ejemplo .arrow{
 	display: block;
-	margin: auto;
+	margin: 15px auto;
 }
 
-/*-------------------------------------------------ADQUIRIR*/
-.adquirir{
-	border-top: 1px solid #F4F4F4;
-	border-bottom: 1px solid #F4F4F4;
-}
-.work{
-	background-image: url("../image/sec-2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 90vh;
-}
-.adquirir h2{
-	padding: 3% 8%;
-}
+
+
+/*---------------------------------------------------------------------------------------------------------SERVICES--*/
 .opaco{
 	background-color: rgba(63, 78, 91, 0.66);
 	height: 100%;
 }
-.texto{
-	padding: 3% 8%;
-	line-height: 28px;
+.services, .ejemplo{
+	margin: 100px 0;
 }
-.texto p{
-	margin-bottom: 0;
-	font-size: 1.1em;
+
+.pasos .row{
+	background: url(../image/sec-2.jpg) left center;
+	background-size: contain;
 }
-.texto p:nth-child(2){
-	color: #73A9FF;
-	font-size: 1.5em;
-	margin-bottom: 6px;
+.pasos .col-pasos-info
+{
+	background: #FFF;
 }
-.texto ul{
-	padding-left: 15px;
+.pasos .pasos-info
+{
+	background: #FFF;
+	padding: 5px;
+	margin: 0 0 0 30px;
 }
-.flecha{
-	bottom: 55px;
-}
-.icon{
-	position: absolute;
-	font-size: 2.3em;
-	color: white;
-	display: block;
-	border-radius: 50%;
-	background-color: #50BDEA;
-	padding: 2%;
-	right: 96%;
-}
-.texto a.icon:nth-child(3){
-	margin: 0;
-}
-.uno{
-	margin: 6% 0%;
-}
-.flecha{
+.step1, .step2, .step3
+{
 	position: relative;
-	left: 46%;
 }
------------------------------------------------------------------------------------------------------WHY*/
+.step3
+{
+	margin-bottom: 50px;
+}
+
+.icon-blue
+{
+	border-radius:40px;
+	background: #299ff4;
+	padding: 10px;
+	font-size: 25px;
+	color: #FFF;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	margin-left: -75px;
+}
+/*-------------------------------------------------------------------------------------------------------------STEPS*/
+.step1 h3 {
+    color: #73A9FF;
+}
+.step2 h3 {
+    color: #73A9FF;
+}
+.step3 h3 {
+    color: #73A9FF;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------WHY*/
 .why ul{
 	margin: 3% 0%;
 	line-height: 26px;
@@ -210,42 +207,40 @@ header .banner button {
 }
 .why{
 	padding: 0% 4%;
+    margin-top: 50px;
+}
+.why .logo {
+    width: 250px;
 }
 .why h1 {
     color: #73A9FF;
 	display: inline;
+    font-size: 30px;
 }
 .why span {
      color:#6CACDC;
 }
-.banner-2 {
-    background-color: rgba(47, 110, 173, 0.9);
-    margin-top: 50px;
-    height: 110px;
-    color:#fff;
-    width: 100%;
+.banner-2
+{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
 }
-.banner-2 h3 {
-    font-size: 26px;
+.banner-2 h3
+{
+	margin: 0;
 }
-.banner-2 h3, .banner-2 p {
-    position: relative;
-    left: 30px;
-    width:270px;
-}
-.banner-2 button {
-    border:1px solid #fff;
-    padding:5px 5px;
-    background-color: rgba(47, 110, 173, 0.9);
-    position: relative;
-    top:30px;
-    left:180px;
-    width: 170px;
-    font-size: 20px;
-    border-radius: 5px;
+.banner-2 banner-button
+{
+	background: none;
+	border:1px solid #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
 }
 
-/*------------------------------------------------------------------------------------------------------FOOTER*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------FOOTER--*/
 footer {
     background: #262834;
     color:#fff;
@@ -264,3 +259,64 @@ footer .icon-footer {
 footer .copy {
     float: right;
 }
+
+@media screen and (max-width:768px)
+{
+	.banner-info
+	{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.frase{
+		margin: 60px 0;
+	}
+	.frase h2{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:999px)
+{
+	.icon-blue
+	{
+		margin-left: -65px;
+
+	}
+	.pasos .col-pasos-info
+	{
+		background: none;
+	}
+	.pasos .row{
+		background-size: cover;
+	}
+	.pasos .pasos-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.tapita-azul .row>div
+	{
+		text-align: center;
+	}
+	.tapita-azul .row>div .img-responsive
+	{
+		display: inline-block;
+	}
+	.desktop-menu
+	{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+/*dd*/
